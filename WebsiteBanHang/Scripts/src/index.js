@@ -131,6 +131,7 @@ export default class Popper {
   static placements = placements;
 
   static Defaults = Defaults;
+  
 }
 
 /**
