@@ -28,7 +28,6 @@ $.extend( $.fn, {
 			}
 			return;
 		}
-
 		// Check if a validator for this form was already created
 		var validator = $.data( this[ 0 ], "validator" );
 		if ( validator ) {
