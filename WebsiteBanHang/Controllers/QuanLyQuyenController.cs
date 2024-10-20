@@ -51,7 +51,6 @@ namespace WebsiteBanHang.Controllers
         public ActionResult ChinhSua([Bind(Include = "MaQuyen,TenQuyyen")] Quyen quyen)
         {
             //if (ModelState.IsValid)
-            
             Quyen q =  db.Quyens.Find(quyen.MaQuyen);
             TryUpdateModel(q, new string[] { "MaQuyen", "TenQuyen"});       //ko dc phep doi ma quyen
             db.SaveChanges();
