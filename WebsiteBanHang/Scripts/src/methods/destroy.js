@@ -24,7 +24,7 @@ export default function destroy() {
   this.disableEventListeners();
 
   // remove the popper if user explicitly asked for the deletion on destroy
-  // do not use `remove` because IE11 doesn't support it
+  // do not use `remove` because IE11 doesn't support it here
   if (this.options.removeOnDestroy) {
     this.popper.parentNode.removeChild(this.popper);
   }
