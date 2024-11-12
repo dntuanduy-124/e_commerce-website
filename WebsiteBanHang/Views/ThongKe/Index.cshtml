@@ -9,7 +9,7 @@
     <div class="card-body">
         @if (Session["TaiKhoan"] != null && Session["TaiKhoan"].ToString() != "")
         {
-            ThanhVien tv = (ThanhVien)Session["TaiKhoan"];     //ép kiểu từ biến session thành biến tv để lấy ra thông tin
+            ThanhVien tv = (ThanhVien)Session["TaiKhoan"];    //ép kiểu từ biến session thành biến tv để lấy ra thông tin
             if (tv.MaLoaiTV == 1)
             {
                 <div class="row">
