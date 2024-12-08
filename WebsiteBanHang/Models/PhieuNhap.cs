@@ -7,6 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+
 namespace WebsiteBanHang.Models
 {
     using System;
