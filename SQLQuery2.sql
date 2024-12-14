@@ -32,5 +32,4 @@ INSERT dbo.SanPham VALUES  ( N'Razer Nari Essential Gaming' ,2200000 , '11/5/201
 
 INSERT dbo.SanPham VALUES  ( N'Razer Raptor 27' ,16000000 , '11/5/2018 10:34:28 AM',NULL,NULL,4,12,0,0,3,1,NULL,4,6,0)
 
-	
 select * from dbo.SanPham
